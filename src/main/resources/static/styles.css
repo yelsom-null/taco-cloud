@@ -1,0 +1,67 @@
+:root {
+
+    padding: 0;
+    margin: 0;
+
+}
+
+body {
+    flex: content;
+    margin: 0;
+    height: 25%;
+    overflow-x: hidden;
+    overflow-y: visible;
+    font-size: 10px;
+}
+
+.myImg {
+    object-fit: cover;
+    height: 10rem;
+    float: right;
+    justify-items: center;
+
+    margin-right: 40rem;
+    padding: 0.5rem;
+    position: relative;
+
+}
+.ingredient-group {
+    display: flex;
+    flex-direction: column;
+    justify-items: right;
+    font-size: 20px;
+    font-family: Poppins;
+
+}
+
+
+
+.ingredient-group span {
+    color: #666;
+    margin-left: 5px;
+}
+.ingredient-group input[type="checkbox"] {
+    margin-right: 5px;
+}
+
+
+h1 {
+    font-size: 60px;
+    font-family: Poppins;
+    padding: 1rem;
+    margin: 1rem;
+    display: flex;
+    justify-content: center;
+    flex: max-content 1rem;
+}
+
+.btn {
+    background: lightgrey;
+    color: cornflowerblue;
+    border: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0 1rem;
+    border-radius: 2rem;
+}
